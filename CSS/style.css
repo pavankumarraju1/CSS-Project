@@ -3,16 +3,18 @@
 }
 body {
   text-align: center;
+  font-size:1.1rem;
 }
 nav{
     background-color:#9DC08B;
 }
+
 nav a li{
     text-decoration: none;
     display: inline-block;
     padding:20px;
     position: relative;
-    left:600px;
+    left:550px;
     color:black;
     font-family: "Tilt Neon", cursive;
 
@@ -74,7 +76,28 @@ h2{
     width:200px;
     height:200px;
     margin:auto;
-    border-radius: 50px;   
+    border-radius: 10px;   
+}
+
+.coding{
+    width:50%;
+    margin:50px auto 100px auto;
+    line-height:2;
+}
+.coding img{
+    float:left;
+    width:100px;
+    height:100px;
+}
+.skill{
+    width:50%;
+    margin:100px auto 100px auto;
+    line-height:3;
+}
+.skill img{
+    float:right;
+    width:100px;
+    height:100px;
 }
 
 .bottom-container{
