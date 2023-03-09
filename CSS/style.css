@@ -5,11 +5,14 @@ body {
   text-align: center;
   font-size:1.1rem;
 }
-nav{
+nav {
     background-color:#9DC08B;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
-nav a li{
+nav a {
     text-decoration: none;
     display: inline-block;
     padding:20px;
@@ -35,7 +38,7 @@ nav a li:hover{
 
 .top-cloud {
   position: relative;
-  top: 20px;
+  top: 35px;
   left: 230px;
 }
 .bottom-cloud {
@@ -46,6 +49,7 @@ nav a li:hover{
 .mountain{
     position: relative;
     left: -60px;
+    
 }
 
 /* .mid-container{
@@ -103,6 +107,7 @@ h2{
 .bottom-container{
     word-spacing: 10px;
     background-color: #DDF7E3;
+    line-height: 2;
 }
 
 .bottom-container img{
